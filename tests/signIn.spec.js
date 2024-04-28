@@ -18,4 +18,7 @@ test('sign in', async({page}) => {
     //click to sign in
     await page.locator('xpath=//*[@id="send2"]/span').click();
 
+    //close the page
+    await page.close();
+
 })

@@ -6,4 +6,7 @@ test('launch home page', async({page}) => {
     await page.goto('https://magento.softwaretestingboard.com/');
     await page.locator('xpath=/html/body/div[2]/header/div[2]/a/img').click();
     
+    //close the page
+    await page.close();
+    
 })

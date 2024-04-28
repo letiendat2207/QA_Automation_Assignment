@@ -40,4 +40,7 @@ test('sign up', async({page}) => {
     //click on create an account
     await page.locator('xpath=//*[@id="form-validate"]/div/div[1]/button').click();
 
+    //close the page
+    await page.close();
+
 })

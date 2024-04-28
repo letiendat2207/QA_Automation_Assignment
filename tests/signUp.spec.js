@@ -12,8 +12,8 @@ function createRandomString(length) {
 
 const randomFirstName = createRandomString(5); //random first name
 const randomLastName = createRandomString(5);   //random last name
-const email = "nguyenvanB@gmail.com"; //random email
-const password = "@ABCeft0203156"; //random password
+const email = "nguyenvanB@gmail.com"; //email
+const password = "@ABCeft0203156"; //password
 module.exports = {email, password};
 
 
